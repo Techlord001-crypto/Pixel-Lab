@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PIXEL LAB</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="code.png">
+   
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+   
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="all.css">
+   
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader__logo">
+    <img src="code.png" alt="Elite Motors" class="preloader__logo-img">
+    <span class="preloader__text">PIXEL LAB</span>
+</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav__container">
+            <a href="#" class="nav__logo">
+                
+                PIXEL LAB
+            </a>
+            <ul class="nav__menu">
+                <li><a href="#home" class="nav__link">Home</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#services" class="nav__link">Services</a></li>
+                <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                <li><a href="#process" class="nav__link">Process</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+           <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero__bg"></div>
+        <div class="hero__particles"></div>
+        <div class="hero__flare hero__flare--1"></div>
+        <div class="hero__flare hero__flare--2"></div>
+        <div class="hero__content container">
+            <h1 class="hero__title">
+                <span class="hero__title-line">We Design</span>
+                <span class="hero__title-line">Digital Experiences</span>
+            </h1>
+            <p class="hero__subtitle">Transforming ideas into stunning, high-performance websites that captivate and convert</p>
+            <div class="hero__cta">
+                <a href="#contact">
+                <button class="btn btn--secondary">Start Your Project</button></a>
+            </div>
+                <br>
+                <div class="hero__cta">
+                <a href="#portfolio">
+                <button class="btn btn--secondary">View Our Work</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+  <!-- Services Section -->
+<section class="services" id="services">
+    <div class="container">
+        <div class="section-header" data-animate>
+            <span class="section-label">What We Do</span>
+            <h2 class="section-title">Our Services</h2>
+        </div>
+        <div class="services__grid">
+            <div class="service-card" data-animate>
+                <div class="service-card__icon">
+                    <img src="web dev.png" alt="Web Development">
+                </div>
+                <h3 class="service-card__title">Web Development</h3>
+                <p class="service-card__description">Custom websites built with cutting-edge technologies for optimal performance and user experience.</p>
+                <a href="#" class="service-card__link">
+                    Learn More
+                    <img src="arrow.png" alt="" class="service-card__arrow">
+                </a>
+            </div>
+           
+            <div class="service-card" data-animate>
+                <div class="service-card__icon">
+                    <img src="ecommerce.png" alt="E-Commerce">
+                </div>
+                <h3 class="service-card__title">E-Commerce Solutions</h3>
+                <p class="service-card__description">Powerful online stores that turn visitors into customers with seamless shopping experiences.</p>
+                <a href="#" class="service-card__link">
+                    Learn More
+                    <img src="arrow.png" alt="" class="service-card__arrow">
+                </a>
+            </div>
+            <div class="service-card" data-animate>
+                <div class="service-card__icon">
+                    <img src="headset.png" alt="Branding">
+                </div>
+                <h3 class="service-card__title">Branding & Identity</h3>
+                <p class="service-card__description">Comprehensive brand strategies that make your business stand out in the digital landscape.</p>
+                <a href="#" class="service-card__link">
+                    Learn More
+                    <img src="arrow.png" alt="" class="service-card__arrow">
+                </a>
+            </div>
+            <div class="service-card" data-animate>
+                <div class="service-card__icon">
+                    <img src="search.png" alt="SEO">
+                </div>
+                <h3 class="service-card__title">SEO Optimization</h3>
+                <p class="service-card__description">Data-driven strategies to improve your search rankings and drive organic traffic.</p>
+                <a href="#" class="service-card__link">
+                    Learn More
+                    <img src="arrow.png" alt="" class="service-card__arrow">
+                </a>
+            </div>
+            <div class="service-card" data-animate>
+                <div class="service-card__icon">
+                    <img src="team.png" alt="Advertising">
+                </div>
+                <h3 class="service-card__title">In-app and In-web ads</h3>
+                <p class="service-card__description">Strategic advertising campaigns that reach your target audience across mobile and web platforms.</p>
+                <a href="#" class="service-card__link">
+                    Learn More
+                    <img src="arrow.png" alt="" class="service-card__arrow">
+                </a>
+            </div>
+            <div class="service-card" data-animate>
+                <div class="service-card__icon">
+                    <img src="maintance.png" alt="Support">
+                </div>
+                <h3 class="service-card__title">Support & Maintenance</h3>
+                <p class="service-card__description">Ongoing support to keep your website running smoothly and up-to-date.</p>
+                <a href="#" class="service-card__link">
+                    Learn More
+                    <img src="arrow.png" alt="" class="service-card__arrow">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-label">About</span>
+                <h2 class="section-title">Who We Are</h2>
+            </div>
+            <div class="about__grid" data-animate>
+                <div class="about__content">
+                    <p class="about__text">Pixel Lab is a team of designers and engineers crafting beautiful, high-performing digital experiences. We combine product thinking, design excellence, and engineering discipline to help ambitious companies grow.</p>
+                    <ul class="about__list">
+                        <li><strong>Founded:</strong> 2025</li>
+                        <li><strong>Expertise:</strong> Web Design, E-Commerce, Ads & Branding</li>
+                        <li><strong>Approach:</strong> User-centered, data-driven, iterative</li>
+                    </ul>
+                </div>
+                <div class="about__visual">
+                    <img src="Dashboard.png" alt="Our team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats__grid">
+                <div class="stat" data-animate>
+                    <div class="stat__number">50+</div>
+                    <div class="stat__label">Projects Completed</div>
+                </div>
+                <div class="stat" data-animate>
+                    <div class="stat__number">11+</div>
+                    <div class="stat__label">Happy Clients</div>
+                </div>
+                <div class="stat" data-animate>
+                    <div class="stat__number">2+</div>
+                    <div class="stat__label">Year Experience</div>
+                </div>
+                <div class="stat" data-animate>
+                    <div class="stat__number">98%</div>
+                    <div class="stat__label">Satisfaction Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-label">Our Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="portfolio__filter" data-animate>
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Web Design</button>
+                <button class="filter-btn">E-Commerce</button>
+                <button class="filter-btn">Branding</button>
+                <button class="filter-btn">Mobile</button>
+            </div>
+            <div class="portfolio__grid">
+                <div class="portfolio-item" data-animate="scale">
+                    <img src="pulseX.png" alt="Project" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay">
+                        <h3 class="portfolio-item__title">Tech Startup Dashboard</h3>
+                        <p class="portfolio-item__category">Web Design</p>
+                       
+                    </div>
+                </div>
+                <div class="portfolio-item" data-animate="scale">
+                    <img src="YummyTreats.png" alt="Project" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay">
+                        <h3 class="portfolio-item__title">E-Commerce Platform</h3>
+                        <p class="portfolio-item__category">E-Commerce</p>
+                       
+                    </div>
+                </div>
+                <div class="portfolio-item" data-animate="scale">
+                    <img src="titans bank.png" alt="Project" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay">
+                        <h3 class="portfolio-item__title">Mobile Banking App</h3>
+                        <p class="portfolio-item__category">Mobile</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-animate="scale">
+                    <img src="ad.jpg" alt="Project" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay">
+                        <h3 class="portfolio-item__title">In-App & In-Web Ads Campaign</h3>
+                        <p class="portfolio-item__category">Ads</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-animate="scale">
+                    <img src="Project 2 (3).png" alt="Project" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay">
+                        <h3 class="portfolio-item__title">Fashion E-Store</h3>
+                        <p class="portfolio-item__category">E-Commerce</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Process Section -->
+<section class="process" id="process">
+    <div class="container">
+        <div class="section-header" data-animate>
+            <span class="section-label">How We Work</span>
+            <h2 class="section-title">Our Process</h2>
+        </div>
+        <div class="process__timeline">
+            <div class="process-step" data-animate>
+                <div class="process-step__number">01</div>
+                <div class="process-step__content">
+                    <h3 class="process-step__title">Discovery & Strategy</h3>
+                    <p class="process-step__description">We dive deep into your business goals, target audience, and competitors to create a comprehensive strategy that sets the foundation for success.</p>
+                </div>
+                <div class="process-step__visual">
+                    <img src="bulb.png" alt="Discovery">
+                </div>
+            </div>
+            <div class="process-step" data-animate>
+                <div class="process-step__number">02</div>
+                <div class="process-step__content">
+                    <h3 class="process-step__title">Design & Prototyping</h3>
+                    <p class="process-step__description">Our designers craft stunning visual concepts and interactive prototypes that bring your vision to life with pixel-perfect precision.</p>
+                </div>
+                <div class="process-step__visual">
+                    <img src="brush.png" alt="Design">
+                </div>
+            </div>
+            <div class="process-step" data-animate>
+                <div class="process-step__number">03</div>
+                <div class="process-step__content">
+                    <h3 class="process-step__title">Development & Testing</h3>
+                    <p class="process-step__description">We build robust, scalable solutions using the latest technologies, ensuring flawless functionality across all devices and browsers.</p>
+                </div>
+                <div class="process-step__visual">
+                    <img src="code.png" alt="Development">
+                </div>
+            </div>
+            <div class="process-step" data-animate>
+                <div class="process-step__number">04</div>
+                <div class="process-step__content">
+                    <h3 class="process-step__title">Launch & Support</h3>
+                    <p class="process-step__description">We handle the deployment and provide ongoing support to ensure your digital presence continues to thrive and evolve.</p>
+                </div>
+                <div class="process-step__visual">
+                    <img src="rocket.png" alt="Launch">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">Let's Build Something Amazing</h2>
+            </div>
+            <div class="contact__content">
+                <div class="contact__info" data-animate="fade-right">
+                    <p class="contact__description">Ready to transform your digital presence? Let's discuss your project and create something extraordinary together.</p>
+                    <div class="contact__details">
+                        <div class="contact__detail">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact__detail-text">
+                                <h3>Email</h3>
+                                <p>pixellab608567@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact__detail">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact__detail-text">
+                                <h3>Phone</h3>
+                                <p>+234 (701) 168-8934</p>
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+                <form class="contact__form" data-animate="fade-left">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Needed</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="web-dev">Web Development</option>
+                            <option value="ui-ux">UI/UX Design</option>
+                            <option value="ecommerce">E-Commerce</option>
+                            <option value="branding">Branding</option>
+                            <option value="seo">SEO</option>
+                            <option value="seo">Ads</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div>
+                    <div class="footer__logo">
+                        <i class="fas fa-palette"></i>
+                      TECH TITANS
+                    </div>
+                    <p class="footer__text">We create exceptional digital experiences that elevate brands and drive results.</p>
+                   <div class="footer__social">
+                    <a href="#" aria-label="Instagram">
+        <img src="instagram.png" alt="Instagram">
+    </a>
+    <a href="#" aria-label="Twitter">
+        <img src="x.png" alt="Twitter">
+    </a>
+    <a href="#" aria-label="LinkedIn">
+        <img src="linkedin.png" alt="LinkedIn">
+    </a>
+</div>
+                </div>
+                <div>
+                    <h3 class="footer__title">Services</h3>
+                    <div class="footer__links">
+                        <a href="#">Web Development</a>
+                        <a href="#">Ads</a>
+                        <a href="#">E-Commerce</a>
+                        <a href="#">Branding</a>
+                        <a href="#">SEO</a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="footer__title">Company</h3>
+                    <div class="footer__links">
+                        <a href="#about">About Us</a>
+                        <a href="#porfotlio">Portfolio</a>
+                        <a href="#">Services</a>
+                        <a href="#">Stat</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="footer__title">Newsletter</h3>
+                    <p class="footer__text">Subscribe to get the latest design insights and updates.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your email" style="margin-bottom: 1rem;">
+                            <button type="submit" class="btn btn--primary btn--block">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 Pixel Lab. All rights reserved.</p>
+                <div class="footer__legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Button -->
+    <a href="#contact" class="float-btn">
+        <i class="fas fa-comments"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
